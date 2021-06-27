@@ -14,7 +14,7 @@ export class AppComponent {
     bong: 'hit'
   }
 
-  url = 'http://bmlr26sjp0.execute-api.us-west-2.amazonaws.com/Staging/paysettingappresource';
+  url = 'https://bmlr26sjp0.execute-api.us-west-2.amazonaws.com/Staging/paysettingappresource';
   json;
 
   constructor(private http: HttpClient) {
