@@ -7,7 +7,7 @@ import { User } from './user';
 })
 export class EnrollmentService {
 
-  _url='https://main.d25ef108wvdjym.amplifyapp.com/';
+  _url='https://bmlr26sjp0.execute-api.us-west-2.amazonaws.com/Staging/paysettingappresource?grade=1&step=5';
   constructor(private _http: HttpClient) { }
 
   enroll(user: User) {
