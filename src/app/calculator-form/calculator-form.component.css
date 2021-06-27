@@ -3,39 +3,3 @@
     font-size: 14px;
   }
 
-#calculator-form {
-    display: flex; 
-    margin-top:1%;
-    background-color: #e8e8e0;
-}
-
-label {
-    margin: 10px;
-    color:#333;
-}
-
-button {
-    background-color: #f1f1f1;
-    margin-left: 5%;
-    margin-bottom:10px;
-    border: 1px solid #333;
-    border-radius: 1px;
-    box-sizing: border-box;
-    padding: 3px 3px;
-}
-
-#space {
-    margin-top:10px;
-}
-
-input[type=text] {
-    margin-left: 5%;
-    margin-top:10px;
-    width:150px;
-}
-
-hr {
-    border: 1px solid #333;
-    margin-left: 5%;
-    margin-top:15px;
-}
