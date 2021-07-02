@@ -23,6 +23,7 @@ validateTopic(value) {
 }
 
 onSubmit() {
+  console.log(this.userModel); 
   this._enrollmentService.enroll(this.userModel)
     .subscribe(
       data => console.log('Success!', data),
