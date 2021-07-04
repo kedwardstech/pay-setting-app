@@ -7,7 +7,7 @@ import { User } from './user';
 })
 export class EnrollmentService {
 
-  _url="https://bmlr26sjp0.execute-api.us-west-2.amazonaws.com/Staging/paysettingappresource";
+  _url="https://bmlr26sjp0.execute-api.us-west-2.amazonaws.com/Staging/GET/paysettingappresourcepaysettingappresource";
   
   constructor(private _http: HttpClient) { }
 
